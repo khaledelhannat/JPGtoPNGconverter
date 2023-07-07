@@ -2,6 +2,7 @@
 # followed by the folder where the images need to be converted,
 # and finally the folder name where you want the converted images to be placed.
 
+
 import sys
 import os
 from PIL import Image
@@ -32,3 +33,4 @@ if isExist1:
 
 else:
     print('Please enter a valid or already-existing folder name.')
+    
